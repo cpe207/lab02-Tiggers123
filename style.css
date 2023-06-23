@@ -1,12 +1,12 @@
 @font-face {
   font-family: myFont;
-  src: url(AlegreyaSansSC-Black.ttf);
+  src: url(font/COLLENIS.otf);
 }
 
 h3 {
   text-align: center;
   color: white;
-  font-style: serif;
+  font-style: italic;
 }
 
 .skill-header {
@@ -14,7 +14,7 @@ h3 {
 }
 
 .skill-container {
-  border: solid lightcoral;
+  border: solid white;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -23,6 +23,7 @@ h3 {
 }
 
 .gradiant-bg {
+  text-align: center;
   font-family: myFont;
   font-size: 82px;
   font-weight: bold;
@@ -50,8 +51,65 @@ h3 {
   }
 }
 
-.Dafont {
-  font-size: 51;
+.btn {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 100px;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border-radius: 50px;
+}
+
+.btn-gradient {
+  width: 120px;
+  padding: 16px;
+  background-image: linear-gradient(to right, rgb(1 134 218), rgb(182 49 167));
+  border: 0;
+  color: rgba(var(white));
+}
+
+.grad {
   text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #f72585,
+    #7209b7,
+    #3a0ca3,
+    #4361ee,
+    #4cc9f0
+  );
+  background-size: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradi {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #7400b8,
+    #5e60ce,
+    #4ea8de,
+    #64dfdf,
+    #80ffdb
+  );
+  background-size: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@font-face {
+  font-family: Font;
+  src: url(font/PK\ Phrae-Medium.otf);
+}
+
+.thaifont {
+  font-family: Font;
   color: white;
 }
