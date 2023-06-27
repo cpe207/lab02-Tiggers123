@@ -71,7 +71,6 @@ h3 {
 }
 
 .grad {
-  text-align: center;
   font-size: 36px;
   font-weight: bold;
   background: linear-gradient(
@@ -112,4 +111,21 @@ h3 {
 .thaifont {
   font-family: Font;
   color: white;
+}
+
+.rounded-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.rounded-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.rounded-all {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
